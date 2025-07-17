@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: #c3d2d7;
+  background: #5b90a3;
   color: white;
   padding: 1rem 2rem;
   position: sticky;
@@ -38,7 +38,7 @@ nav a:hover {
 }
 
 .hero {
-  background: #1c4d5f;
+  background: #5b90a3;
   color: white;
   padding: 4rem 2rem;
   text-align: center;
