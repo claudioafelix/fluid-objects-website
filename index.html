@@ -5,124 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fluid Objects | Soluções Digitais Inteligentes</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #ffffff;
-      color: #1a1a1a;
-      line-height: 1.6;
-    }
-    header {
-      background: #1c4d5f;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-      position: relative;
-    }
-    .logo {
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-      height: 50px;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    header p {
-      font-size: 1.25rem;
-      margin: 0.5rem 0 1rem;
-    }
-    .cta-button {
-      background: #007897;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      font-weight: bold;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    section {
-      padding: 3rem 2rem;
-      max-width: 960px;
-      margin: auto;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    .feature-box {
-      background: #e6f0f3;
-      border-radius: 10px;
-      padding: 1.5rem;
-      text-align: center;
-    }
-    .feature-box h3 {
-      margin-bottom: 0.5rem;
-    }
-    footer {
-      background: #f9f9f9;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.875rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <img src="Logo-Fluid.png" alt="Fluid Objects Logo" class="logo" />
-    <h1>Fluid Objects, experiências à medida.</h1>
-    <p>Soluções digitais sob medida para ambientes fluidos e conectados.</p>
-    <a href="#contato" class="cta-button">Peça uma demonstração gratuita</a>
+    <nav>
+      <a href="#oque">O que fazemos</a>
+      <a href="#solucoes">Nossas soluções</a>
+      <a href="#como">Como fazemos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
   </header>
 
-  <section id="solucoes">
+  <div class="hero">
+    <h1>Objetos fluidos, experiências à medida.</h1>
+    <p>Soluções digitais sob medida para ambientes fluidos e conectados.</p>
+    <a href="#contato" class="cta-button">Peça uma demonstração gratuita</a>
+  </div>
+
+  <section id="oque">
     <h2>O que fazemos</h2>
+    <p>Na Fluid Objects, ajudamos empresas a transformar ideias em soluções tecnológicas fluidas e inteligentes, com foco em conectividade, automação e experiências digitais personalizadas.</p>
+  </section>
+
+  <section id="solucoes">
+    <h2>Nossas soluções</h2>
     <div class="features">
       <div class="feature-box">
         <h3>Design de Objetos Dinâmicos</h3>
-        <p>Criamos objetos adaptáveis em tempo real.</p>
+        <p>Criamos objetos adaptáveis em tempo real, prontos para responder a mudanças no ambiente.</p>
       </div>
       <div class="feature-box">
         <h3>Integração IoT e Dados</h3>
-        <p>Conectamos objetos inteligentes a plataformas de dados.</p>
+        <p>Conectamos sensores, dispositivos e plataformas para criar sistemas inteligentes de decisão.</p>
       </div>
       <div class="feature-box">
         <h3>Consultoria & Suporte</h3>
-        <p>Planejamos e evoluímos sua solução continuamente.</p>
+        <p>Do planejamento à execução, acompanhamos todo o ciclo de vida da solução com agilidade e segurança.</p>
       </div>
     </div>
   </section>
 
-  <section id="metodologia">
+  <section id="como">
     <h2>Como fazemos</h2>
     <ol>
-      <li>Mapeamento de requisitos</li>
-      <li>Design iterativo com protótipos</li>
-      <li>Testes e refinamento</li>
-      <li>Entrega e suporte contínuo</li>
+      <li>Mapeamento de requisitos e objetivos</li>
+      <li>Prototipagem ágil e validação de hipóteses</li>
+      <li>Desenvolvimento iterativo com entregas contínuas</li>
+      <li>Monitoramento, evolução e suporte técnico</li>
     </ol>
-  </section>
-
-  <section id="resultados">
-    <h2>Resultados</h2>
-    <div class="features">
-      <div class="feature-box">
-        <h3>+30%</h3>
-        <p>Eficiência operacional</p>
-      </div>
-      <div class="feature-box">
-        <h3>-20%</h3>
-        <p>Custos operacionais</p>
-      </div>
-      <div class="feature-box">
-        <h3>+12</h3>
-        <p>Ambientes conectados entregues</p>
-      </div>
-    </div>
   </section>
 
   <section id="depoimentos">
@@ -140,7 +73,7 @@
 
   <footer>
     <p>&copy; 2025 Fluid Objects. Todos os direitos reservados.</p>
-    <p><a href="#">Política de Privacidade</a></p>
+    <p>CNPJ: 00.000.000/0001-00 • <a href="#">Política de Privacidade</a></p>
   </footer>
 </body>
 </html>
